@@ -28,7 +28,7 @@ setup(
         "requests-oauthlib>=1.3.1",
         "websocket-client>=1.2.3,<=1.4.2",
         "six==1.16.0",
-        "python-dotenv>=0.19.2,<=0.21.1"
+        "python-dotenv>=0.19.2,<2.0.0"
     ],
     extras_require={
         'develop': [
